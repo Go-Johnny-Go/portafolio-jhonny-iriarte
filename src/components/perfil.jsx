@@ -3,7 +3,7 @@ import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa
 
 const PerfilPhoto = ()=> {
   const divStyle = {
-    backgroundImage: "url('/public/bg.jpg')"
+    backgroundImage: "url('bg.jpg')"
   }
     return(
         <section className="bg-cover w-full h-full" style={divStyle}>
