@@ -22,7 +22,7 @@ const Navbar = () => {
             </a>
           </nav>
           <a
-            href="/public/CV-JhonnyIriarte.pdf"
+            href="/CV-JhonnyIriarte.pdf"
             className=" text-cyan-400  font-bold inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
             ¡Dowloand CV!
             <BiBookmark className="w-4 h-4 ml-1 text-green-400" />
