@@ -4,7 +4,7 @@ export const Aplications = [
         subtitle: " MiskiJampi ",
         description: "this is a project develop with React html, css , javascript and tailwind ",
         image: " /projectLila.jpg ",
-        link:"https://ecomerce.netlify.app"
+        link:"miskijampi.netlify.app"
     },
 
     {
