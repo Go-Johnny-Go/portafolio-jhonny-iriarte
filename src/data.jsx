@@ -8,11 +8,11 @@ export const Aplications = [
     },
 
     {
-        title : "calcultor pro",
-        subtitle: " calculator ",
-        description: "this is a project develop with React html, css , javascript ",
+        title : "Web site",
+        subtitle: " PuntoDF ",
+        description: "this is a project develop with React html, css , javascript and taildwind ",
         image: "/projectAzul.jpg",
-        link:"https://ecomerce.netlify.app"
+        link:"https://puntodefe.netlify.app"
     },
 
     {
