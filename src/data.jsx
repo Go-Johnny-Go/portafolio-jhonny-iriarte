@@ -1,8 +1,8 @@
 export const Aplications = [
     {
-        title : "React Reserve",
-        subtitle: " ecommerce ",
-        description: "this is a project develop with React html, css , javascript ",
+        title : "Website",
+        subtitle: " MiskiJampi ",
+        description: "this is a project develop with React html, css , javascript and tailwind ",
         image: " /projectLila.jpg ",
         link:"https://ecomerce.netlify.app"
     },
