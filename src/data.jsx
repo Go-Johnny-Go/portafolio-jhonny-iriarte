@@ -19,7 +19,7 @@ export const Aplications = [
         title : "api rest",
         subtitle: " apirest",
         description: "this is a project develop with React html, css , javascript ",
-        image: "/projectRojo.jpg",
+        image: "/bg.jpg",
         link:"https://ecomerce.netlify.app"
     },
     
