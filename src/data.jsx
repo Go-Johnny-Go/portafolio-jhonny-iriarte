@@ -11,7 +11,7 @@ export const Aplications = [
         title : "Web site",
         subtitle: " PuntoDF ",
         description: "this is a project develop with React html, css , javascript and taildwind ",
-        image: "/projectAzul.jpg",
+        image: "/photop2.png",
         link:"https://puntodefe.netlify.app"
     },
 
