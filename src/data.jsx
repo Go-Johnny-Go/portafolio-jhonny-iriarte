@@ -3,7 +3,7 @@ export const Aplications = [
         title : "Website",
         subtitle: " MiskiJampi ",
         description: "this is a project develop with React html, css , javascript and tailwind ",
-        image: " /projectLila.jpg ",
+        image: " /photop5.jpg ",
         link:"https://miskijampi.netlify.app/"
     },
 
