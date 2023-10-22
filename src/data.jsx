@@ -45,12 +45,6 @@ export const Habilitys = [
      "Node.js",
      "Postgres",
      "Sequelize", 
-     "Linux", 
-     "Zabbix", 
-     "Pfsense", 
-     "Wireguard", 
-     "Ubuntu", 
-     "Ansible",
 
     ];
 
