@@ -19,7 +19,7 @@ export const Aplications = [
         title : "Website",
         subtitle: "store-clothing",
         description: "this is a project develop with React html, css , javascript ",
-        image: "/bg.jpg",
+        image: "/naturaleza.jpg",
         link:"https://website-store-clothing.netlify.app/"
     },
     
