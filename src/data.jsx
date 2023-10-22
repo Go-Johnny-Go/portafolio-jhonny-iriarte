@@ -8,7 +8,7 @@ export const Aplications = [
     },
 
     {
-        title : "Web site",
+        title : "Website",
         subtitle: " PuntoDF ",
         description: "this is a project develop with React html, css , javascript and taildwind ",
         image: "/photop3.jpg",
@@ -16,11 +16,11 @@ export const Aplications = [
     },
 
     {
-        title : "api rest",
-        subtitle: " apirest",
+        title : "Website",
+        subtitle: "store-clothing",
         description: "this is a project develop with React html, css , javascript ",
         image: "/bg.jpg",
-        link:"https://ecomerce.netlify.app"
+        link:"https://website-store-clothing.netlify.app/"
     },
     
     {
