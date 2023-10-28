@@ -1,5 +1,5 @@
 import { FaFacebookF, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-
+import { PiTiktokLogoLight } from "react-icons/pi";
 
 const PerfilPhoto = ()=> {
   const divStyle = {
@@ -12,11 +12,9 @@ const PerfilPhoto = ()=> {
                 <div className="flex flex-col p-5 my-5 items-center bg-slate-800 bg-opacity-25 rounded-lg">
                   <h1 className=" sm:text-4xl text-3xl text-white font-bold m-4">Jhonny Iriarte Condori</h1>
                   <h2 className=" text-cyan-400 text-2xl font-semibold">Sofware Ingineer</h2>
-                  <div className="grid grid-cols-4 gap-4 m-4 ">
-                    <FaFacebookF className="w-10 h-10 text-green-600"/>
-                    <FaInstagram className="w-10 h-10 text-green-600"/>  
+                  <div className="grid grid-cols-4 gap-4 m-4 ">  
                     <FaGithub className="w-10 h-10 text-green-600"/>
-                    <FaLinkedinIn className="w-10 h-10 text-green-600"/>                
+                    <PiTiktokLogoLight className="w-10 h-10 text-green-600"/>
                   </div>
                 </div>
             </div>
