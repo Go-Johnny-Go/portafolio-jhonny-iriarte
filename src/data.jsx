@@ -20,7 +20,7 @@ export const Aplications = [
         subtitle: "store-clothing",
         description: "this is a project develop with React html, css , javascript ",
         image: "/naturaleza.jpg",
-        link:"https://velvety-tiramisu-85c4e5.netlify.app//"
+        link:"https://website-store-clothing.netlify.app"
     },
     
     {
@@ -28,7 +28,7 @@ export const Aplications = [
         subtitle: " apirest",
         description: "this is a project develop with React html, css , javascript ",
         image: "/perfil6.jpg",
-        link:"https://ecomerce.netlify.app"
+        link:"https://velvety-tiramisu-85c4e5.netlify.app/"
     }
 
 
