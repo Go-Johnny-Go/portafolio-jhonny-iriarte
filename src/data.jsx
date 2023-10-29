@@ -24,10 +24,10 @@ export const Aplications = [
     },
     
     {
-        title : "api rest",
-        subtitle: " apirest",
+        title : "BateriasCBBA",
+        subtitle: "Website",
         description: "this is a project develop with React html, css , javascript ",
-        image: "/perfil6.jpg",
+        image: "/CBBA.jpg",
         link:"https://velvety-tiramisu-85c4e5.netlify.app/"
     }
 
@@ -38,13 +38,13 @@ export const Aplications = [
 
 export const Habilitys = [ 
     "JavaScritp",
-     "Html",
-     "Css",
-     "Tailwind",
-     "React", 
+    "React", 
+    "Html",
+    "PostgresSQL",
+    "Css",
      "Node.js",
-     "Postgres",
-     "Sequelize", 
+     "TailwindCss",
+     "Linux", 
 
     ];
 

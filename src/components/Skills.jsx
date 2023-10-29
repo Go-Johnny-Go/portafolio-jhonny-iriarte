@@ -1,19 +1,25 @@
-import {  FaLinkedinIn } from "react-icons/fa";
+import {  FaTiktok } from "react-icons/fa";
 import { BiBookmark } from "react-icons/bi";
 import { Habilitys } from "../data";
 
 
-const Skills = () =>{
+const Skills = ({isEnglish}) =>{
     return(
         <section id="skills">
         <div className="container px-5 py-10 mx-auto">
           <div className="text-center mb-20 mt-20">
-            <FaLinkedinIn className="w-10 h-10 inline-block mb-4 text-cyan-400" />
-            <h1 className="sm:text-4xl text-3xl font-bold title-font text-red-700 mb-4">
-            skills & technologies
+            <FaTiktok className="w-10 h-10 inline-block mb-4 text-cyan-400" />
+            <h1 className={`sm:text-4xl text-3xl font-bold title-font text-red-700 mb-4 ${isEnglish ? "block" : "hidden"}`}>
+            Skills & Technologies
             </h1>
-            <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            <h1 className={`sm:text-4xl text-3xl font-bold title-font text-red-700 mb-4 ${isEnglish ? "hidden" : "block"}`}>
+            Habilidades y Tecnologias
+            </h1>
+            <p className={`text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto ${isEnglish ? "block" : "hidden"} `}>
             these are my skills and knowledge acquired since I entered the world of technology.
+            </p>
+            <p className={`text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto ${isEnglish ? "hidden" : "block"} `}>
+            Estas son mis habilidades y conocimientos adquiridos desde que entré en el mundo de la tecnología.
             </p>
           </div>
           <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
