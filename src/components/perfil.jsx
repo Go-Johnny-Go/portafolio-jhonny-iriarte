@@ -20,7 +20,7 @@ const PerfilPhoto = ( {isEnglish} )=> {
                     <a href="https://github.com/Iriarte-star" target="blank" >
                       <FaGithub className="w-10 h-10 text-green-400"/>
                     </a> 
-                    <a href="https://www.tiktok.com/@iriartecondorijho?_t=8gthuM6w4RS&_r=1" target="blank" >
+                    <a href="https://www.tiktok.com/@iriartecondorijhonny?_t=8hD7iTgMIzd&_r=1" target="blank" >
                       <PiTiktokLogoLight   className="w-10 h-10 text-green-400"/>
                     </a>
                   </div>
