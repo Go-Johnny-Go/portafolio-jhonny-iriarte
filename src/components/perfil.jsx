@@ -17,10 +17,10 @@ const PerfilPhoto = ( {isEnglish} )=> {
                   <h2 className={`text-cyan-400 text-2xl font-semibold ${isEnglish ? "block" : "hidden"}`}>Front End Developer</h2>
                   <h2 className={`text-cyan-400 text-2xl font-semibold ${isEnglish ? "hidden" : "block"}`}>Desarrollador Frontend</h2>
                   <div className="flex gap-4 m-4 just "> 
-                    <a href="https://github.com/Iriarte-star">
+                    <a href="https://github.com/Iriarte-star" target="blank" >
                       <FaGithub className="w-10 h-10 text-green-400"/>
                     </a> 
-                    <a href="https://www.tiktok.com/@iriartecondorijho?_t=8gthuM6w4RS&_r=1">
+                    <a href="https://www.tiktok.com/@iriartecondorijho?_t=8gthuM6w4RS&_r=1" target="blank" >
                       <PiTiktokLogoLight   className="w-10 h-10 text-green-400"/>
                     </a>
                   </div>
