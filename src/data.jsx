@@ -42,9 +42,12 @@ export const Habilitys = [
     "Html",
     "PostgresSQL",
     "Css",
-     "Node.js",
-     "TailwindCss",
-     "Linux", 
+    "Node.js",
+    "Next.js"
+    "TailwindCss",
+    "Linux",
+    "AWS"
+    "Resend"
 
     ];
 
@@ -53,7 +56,7 @@ export const Opiniones = [
         id:1,
         quote : "  For commitment and diligence in delivering the assigned tasks remotely on Pfsense and Zabbix technologies.",
         image: " /nerds.png",
-        name: "David Redecop",
+        name: "NerdsOnSite",
         company: "Nerds onsite",
     },
 
