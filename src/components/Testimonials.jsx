@@ -5,12 +5,12 @@ import { Opiniones } from "../data";
 const Testimonials =({isEnglish})=> {
   return (
     <section id="testimonials">
-      <div className="container px-5 py-40 mx-auto  text-center">
+      <div className="container px-5 py-10 mx-auto  text-center">
         <FaLinkedinIn className="w-10 h-10 inline-block mb-4 text-cyan-400" />
-        <h1 className={`sm:text-4xl text-3xl font-bold title-font text-red-600  mb-12 ${isEnglish ? "hidden" : "block"}`}>
+        <h1 className={`font-new sm:text-4xl text-3xl font-bold title-font text-red-600  mb-12 ${isEnglish ? "hidden" : "block"}`}>
          Client Testimonials
         </h1>
-        <h1 className={`sm:text-4xl text-3xl font-bold title-font text-red-600  mb-12 ${isEnglish ? "block" : "hidden"}`}>
+        <h1 className={`font-new sm:text-4xl text-3xl font-bold title-font text-red-600  mb-12 ${isEnglish ? "block" : "hidden"}`}>
          Testimonios de Clientes
         </h1>
         <div className="flex flex-wrap m-4">

@@ -43,10 +43,10 @@ export const Habilitys = [
     "PostgresSQL",
     "Css",
     "Node.js",
-    "Next.js"
+    "Next.js",
     "TailwindCss",
     "Linux",
-    "AWS"
+    "AWS",
     "Resend"
 
     ];
