@@ -13,7 +13,7 @@ const Testimonials =({isEnglish})=> {
         <h1 className={`font-new sm:text-4xl text-3xl font-bold title-font text-red-600  mb-12 ${isEnglish ? "block" : "hidden"}`}>
          Testimonios de Clientes
         </h1>
-        <div className="flex flex-wrap m-4">
+        <div className="flex flex-wrap m-4 text-gray-200 font-raleway">
           {Opiniones.map((testimonial) => (
             <div key={testimonial.id} className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">

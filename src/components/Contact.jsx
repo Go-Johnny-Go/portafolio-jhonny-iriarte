@@ -73,12 +73,12 @@ const Contact=({isEnglish})=> {
           <h2 className={`font-new text-red-600 sm:text-4xl text-3xl mb-1 font-bold title-font ${isEnglish ? "block" : "hidden" }`}>
             ¡Contratame!
           </h2>
-          <p className={`leading-relaxed mb-5 ${isEnglish ? "hidden" : "block"}`}>
+          <p className={` text-gray-200 font-raleway leading-relaxed mb-5 ${isEnglish ? "hidden" : "block"}`}>
           Leave me your name and email and let's get your projects up and running!<br/>
             <span className="text-cyan-400">Let's get to work!</span>
           </p>
 
-          <p className={`leading-relaxed mb-5 ${isEnglish ? "block" : "hidden"}`}>
+          <p className={` text-gray-200 font-raleway leading-relaxed mb-5 ${isEnglish ? "block" : "hidden"}`}>
           Dejame tu Nombre y correo electronico y hagamos que tus proyectos enpiezen a funcionar!
           <br/>
             <span className="text-cyan-400">Manos a la Obra!</span>

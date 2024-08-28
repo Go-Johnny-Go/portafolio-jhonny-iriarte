@@ -15,7 +15,7 @@ const Navbar = ( { isEnglish , toggleLanguage  }) => {
             JHONNY IRIARTE
             </a>
           </a>
-          <nav className="md:mr-auto md:ml-4 text-white   md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+          <nav className=" text-gray-200 font-raleway md:mr-auto md:ml-4    md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
             <a href="#projects"  className={`mr-5  hover:text-white ${isEnglish ? "block" : "hidden"}`}>
               Projects
             </a>

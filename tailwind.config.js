@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'new':['New Amsterdam']
+        'new':['New Amsterdam'],
+        'raleway':['Raleway'],
       }
     },
   },

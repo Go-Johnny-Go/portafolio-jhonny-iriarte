@@ -62,7 +62,7 @@ export const Opiniones = [
 
     {
         id:2,
-        quote : " For succesfully completing the foundattions in HTML, CSS, and Javascript module.",
+        quote : " For succesfully completing the foundattions in HTML, CSS, and JAVASCRIPT module.",
         image: " /academlo.png",
         name: "Georg Berger",
         company: "Academlo",

@@ -47,7 +47,7 @@ const Todo = () => {
             <div className='flex items-center mt-7 bg-gray-200 rounded-full'>
                 <input
                     ref={inputRef}
-                    className='bg-transparent text-black outline-none border-0 flex-1 h-14 pl-6 pr-2 placeholder:text-slate-600'
+                    className='bg-transparent font-raleway text-black outline-none border-0 flex-1 h-14 pl-6 pr-2 placeholder:text-slate-600'
                     type='text'
                     placeholder='Add a task'
                 />
@@ -62,7 +62,7 @@ const Todo = () => {
             <div>
                 {todoList.map((item) => (
                     <TodoItems
-                        className="text-white"
+                        className="text-white "
                         key={item.id} // Cambiado de index a item.id para evitar problemas con elementos reordenados
                         text={item.text}
                         id={item.id}

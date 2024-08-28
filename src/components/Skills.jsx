@@ -15,14 +15,14 @@ const Skills = ({isEnglish}) =>{
             <h1 className={` font-new sm:text-4xl text-3xl font-bold title-font text-red-600 mb-4 ${isEnglish ? "hidden" : "block"}`}>
             Habilidades y Tecnologias
             </h1>
-            <p className={`text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto ${isEnglish ? "block" : "hidden"} `}>
-            these are my skills and knowledge acquired since I entered the world of technology.
+            <p className={`text-base text-gray-200 font-raleway leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto ${isEnglish ? "block" : "hidden"} `}>
+            These are my skills and knowledge acquired since I entered the world of technology.
             </p>
-            <p className={`text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto ${isEnglish ? "hidden" : "block"} `}>
+            <p className={`text-base text-gray-200 font-raleway leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto ${isEnglish ? "hidden" : "block"} `}>
             Estas son mis habilidades y conocimientos adquiridos desde que entré en el mundo de la tecnología.
             </p>
           </div>
-          <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+          <div className="flex text-gray-200 font-raleway flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             {Habilitys.map((skill) => (
               <div key={skill} className="p-2 sm:w-1/2 w-full">
                 <div className="bg-gray-800 rounded flex p-4 h-full items-center">
